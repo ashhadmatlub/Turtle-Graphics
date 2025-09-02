@@ -61,11 +61,6 @@ public class Pen {
 
     }
 
-    // assign canvas
-    public void assignCanvas(Canvas C) {
-        this.canva = C;
-    }
-
     // METHOD TO MOVE THE PEN AT ANY POSITION
     public void moveTo(Point m) {
         this.position = new Point(m);
