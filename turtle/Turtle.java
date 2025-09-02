@@ -7,7 +7,6 @@ public class Turtle extends Pen {
     private Point initialPoint;
     private int move;
     private int count = 1;
-    private String review;
 
     public Turtle(Point initial, Canvas can) {
         super(can, initial); // IMPORTANT: give Pen the same Canvas and start point
