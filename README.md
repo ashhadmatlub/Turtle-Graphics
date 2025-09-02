@@ -23,7 +23,30 @@ Predefined Mode → Automatically draw shapes like a Square 🟥 or Zigzag 🌀.
 
 A simple canvas pops up in a JFrame window where all drawings are rendered.
 📂 Project Structure
-TURTLE/ │── Main.java # Entry point of the program │ ├── App/ │ └── App.java # Runs the main application flow │ ├── Commands/ │ ├── Finalrun.java # Handles mode selection │ ├── Arrow.java # Give the authority to user to move anywhere freely │ ├── ArrowRun.java # Controls the Arrow mode │ ├── BuiltIn_Cmd.java # Free mode (arrow control) │ ├── BuiltIn_Cmd_Run.java # Free mode (arrow control) it controls the builtIn mode │ └── T_Run.java # Command-based mode (F+F+F+F) │ ├── Drawing/ │ ├── Canvas.java # Drawing canvas │ ├── Line.java # Line representation │ └── Pen.java # Pen class to draw lines │ ├── Geometry/ │ └── Point.java # Represents (x, y) coordinates │ └── Turtle/ └── Turtle.java # Turtle class (extends Pen)
+TURTLE/
+│── Main.java                  # Entry point of the program
+│
+├── App/
+│   └── App.java               # Runs the main application flow
+│
+├── Commands/
+│   ├── Finalrun.java          # Handles mode selection
+│   ├── Arrow.java             # Gives the user authority to move anywhere freely
+│   ├── ArrowRun.java          # Controls the Arrow mode
+│   ├── BuiltIn_Cmd.java       # Free mode (arrow control)
+│   ├── BuiltIn_Cmd_Run.java   # Controls the BuiltIn (free) mode
+│   └── T_Run.java             # Command-based mode (F+F+F+F)
+│
+├── Drawing/
+│   ├── Canvas.java            # Drawing canvas
+│   ├── Line.java              # Line representation
+│   └── Pen.java               # Pen class to draw lines
+│
+├── Geometry/
+│   └── Point.java             # Represents (x, y) coordinates
+│
+└── Turtle/
+    └── Turtle.java            # Turtle class (extends Pen)
 
 🚀 Getting Started
 🔧 Prerequisites
@@ -78,4 +101,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 👨‍💻 Author Developed by Syed Muhammad Ashhad Matlub✨
 
-📌 GitHub: ashhadmatlub
+📌 GitHub: gihub.com/ashhadmatlub
