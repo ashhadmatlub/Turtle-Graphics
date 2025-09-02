@@ -24,29 +24,29 @@ Predefined Mode → Automatically draw shapes like a Square 🟥 or Zigzag 🌀.
 A simple canvas pops up in a JFrame window where all drawings are rendered.
 📂 Project Structure
 TURTLE/
-│── Main.java                  # Entry point of the program
+│── Main.java
 │
 ├── App/
-│   └── App.java               # Runs the main application flow
+│   └──App.java 
 │
 ├── Commands/
-│   ├── Finalrun.java          # Handles mode selection
-│   ├── Arrow.java             # Gives the user authority to move anywhere freely
-│   ├── ArrowRun.java          # Controls the Arrow mode
-│   ├── BuiltIn_Cmd.java       # Free mode (arrow control)
-│   ├── BuiltIn_Cmd_Run.java   # Controls the BuiltIn (free) mode
-│   └── T_Run.java             # Command-based mode (F+F+F+F)
+│   ├── Finalrun.java
+│   ├── Arrow.java
+│   ├── ArrowRun.java
+│   ├── BuiltIn_Cmd.java
+│   ├── BuiltIn_Cmd_Run.java
+│   └── T_Run.java
 │
 ├── Drawing/
-│   ├── Canvas.java            # Drawing canvas
-│   ├── Line.java              # Line representation
-│   └── Pen.java               # Pen class to draw lines
+│   ├── Canvas.java
+│   ├── Line.java
+│   └── Pen.java
 │
 ├── Geometry/
-│   └── Point.java             # Represents (x, y) coordinates
+│   └── Point.java
 │
 └── Turtle/
-    └── Turtle.java            # Turtle class (extends Pen)
+    └── Turtle.java
 
 🚀 Getting Started
 🔧 Prerequisites
@@ -76,29 +76,5 @@ F, then +, then F, then +, then F, then +, then F
 Will draw a square on the canvas ✅
 
 In Mode 3, There are two options press 1 for Square and 2 for Zigzag.
-
-📜 License This project is licensed under the MIT License.
-
-MIT License
-
-Copyright (c) 2025 Syed Muhammad Ashhad Matlub
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE. 👨‍💻 Author Developed by Syed Muhammad Ashhad Matlub✨
 
 📌 GitHub: gihub.com/ashhadmatlub
